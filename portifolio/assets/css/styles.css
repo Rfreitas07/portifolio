@@ -433,31 +433,16 @@ img{
 }
 /*========== CONTACT ==========*/
 
-.download{
-  display: flex;
-  align-items: center;
-  background: #fff;
-  border-radius: 5px;
-  height: 3rem;
-  text-align: center;
-
-}
-.download a{
-color: rgba(243, 100, 112, 0.5);
-
-}
 .button{
-  color: #fff;
+  color: #DA2535;
+  background-color: white;
+  width: 95%;
+  margin-left: var(--mb-1);
+ 
 }
 
-.send__img {
-  margin: 1rem 1rem 1rem 4rem;
-}
-#download{
-  color: rgba(218,37,53,.5);  
-  margin: 2rem;
-  margin-left: 4rem;
-}
+
+
 .send__title h2{
  display: block;
  width: 30rem;
@@ -488,18 +473,56 @@ padding: 2rem;
   }
 
 
-.send__container{
-  
+.send__container{  
       width: 100wh;    
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
     display: grid;
-    gap: 2.5rem;
+    gap: 2rem;
     justify-content: center;
   }
 
+.form__label {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #fff;
+}
 
+.form__input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  background-color: var(--body-color);
+  color: var(--text-color);
+  outline: none;
+}
 
+.form__input:focus {
+  border-color: var(--first-color);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+.buttoncv{ 
+font-weight: 700;
+  padding: 1rem;
+  font-size: 16px;
+  margin-left: 40%;
+  margin-top: 2rem;
+  width: 10rem;
+  color: white;
+  background-color: #DA2535;
+  border-radius: 5px;
+}
+.send__img{
+  
+}
+.buttoncv a{
+  color: white;
+}
 /*========== FOOTER ==========*/
 .footer__container{
   display: flex;
